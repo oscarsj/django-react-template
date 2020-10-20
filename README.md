@@ -23,6 +23,13 @@ create database MYAPPNAME;
 ```
 docker-compose run escuela python MYAPPNAME/manage.py migrate
 ```
+- Install frontend dependencies
+```
+cd frontend
+npm i webpack webpack-cli --save-dev
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+npm i react react-dom --save-dev
+```
 - Run the app:
 ```
 docker-compose up -d
