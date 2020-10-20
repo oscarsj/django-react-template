@@ -1,8 +1,11 @@
 # README #
 
-### Django + React version of escueladefutbol app ###
+### Django + React skeleton ###
 
-Following [this post](https://www.valentinog.com/blog/drf/)
+This code allows to bootstrapping an app based on django rest framework as backend, a react app as frontend, with a development environment based on docker-compose and mysql
+The target of this is deploying to a service such as heroku.
+
+Clone this repo and search&&replace for MYAPPNAME, then follow your favorite django tutorial to start adding apps, models and views, for example [this post](https://www.valentinog.com/blog/drf/)
 
 ### Dev env set up ###
 
