@@ -23,6 +23,10 @@ create database MYAPPNAME;
 ```
 docker-compose run MYAPPNAME python MYAPPNAME/manage.py migrate
 ```
+Create super-user to be able to log in into admin, and provision regular users
+```
+docker-compose run MYAPPNAME python MYAPPNAME/manage.py createsuperuser
+```
 - Install frontend dependencies
 ```
 cd frontend
