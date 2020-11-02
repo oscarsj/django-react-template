@@ -30,10 +30,13 @@ docker-compose run MYAPPNAME python MYAPPNAME/manage.py createsuperuser
 - Install frontend dependencies
 ```
 cd frontend
-npm i webpack webpack-cli --save-dev
-npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
-npm i react react-dom --save-dev
+npm install 
 ```
+- Transpile React code:
+```
+npm run dev
+```
+
 - Run the app:
 ```
 docker-compose up -d
