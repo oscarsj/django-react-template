@@ -21,7 +21,7 @@ create database MYAPPNAME;
 ```
 - Populate it with django models
 ```
-docker-compose run escuela python MYAPPNAME/manage.py migrate
+docker-compose run MYAPPNAME python MYAPPNAME/manage.py migrate
 ```
 - Install frontend dependencies
 ```
